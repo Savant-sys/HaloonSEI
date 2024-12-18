@@ -48,7 +48,7 @@ const Banner: React.FC<{}> = () =>
         </motion.div>
 
         <motion.div className="flex justify-center mt-2 md:mt-4" variants={fadeInUp}>
-          <p className="text-lg md:text-2xl font-medium tracking-tighter text-gray-300 max-w-[600px]">
+          <p className="text-2xl md:text-3xl font-medium tracking-tighter text-gray-300 max-w-[600px]">
             Hey  {" "}
             <span className="text-transparent font-semibold bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 mr-2">
               Spartans!
@@ -65,7 +65,7 @@ const Banner: React.FC<{}> = () =>
         </motion.div>
 
         {/* Subtitle */}
-        <motion.p className="text-lg md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
+        <motion.p className="text-base md:text-xl text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
           Halo! Its divine wind will rush through the stars, propelling all who are worthy along the path to salvation.
         </motion.p>
 
