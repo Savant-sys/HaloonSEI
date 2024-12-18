@@ -14,8 +14,7 @@ const fadeInUp = {
   },
 };
 
-const About: React.FC<{}> = () =>
-{
+const About: React.FC<{}> = () => {
   return (
     <motion.section
       id="about"
@@ -48,17 +47,17 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          We're excited to bring you the first ever Halo community coin, your ultimate hub for all things Halo on SEI! Whether you're here for the latest Halo news,
-          updates on the legendary game, or just to hang out with fellow fans, you've come to the right place.
+          We&apos;re excited to bring you the first ever Halo community coin, your ultimate hub for all things Halo on SEI! Whether you&apos;re here for the latest
+          Halo news, updates on the legendary game, or just to hang out with fellow fans, you&apos;ve come to the right place.
           <br />
           <br />
-          But that's not all. 🚀
+          But that&apos;s not all. 🚀
           <br />
           <br />
           We’re proud to announce that Halo Coin has officially launched! 🎉 Dive into the future where the epic world of Halo meets cutting-edge crypto innovation.
           <br />
           <br />
-          Join the conversation, gear up for the journey, and let's make history together! 💥
+          Join the conversation, gear up for the journey, and let&apos;s make history together! 💥
           <br />
           <br />
           Spartan up, and welcome to The Halo on SEI!
