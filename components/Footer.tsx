@@ -72,10 +72,6 @@ const Footer: React.FC<{}> = () =>
           </motion.div>
         ))}
       </motion.div>
-
-      <motion.p className="text-gray-300 text-center text-lg md:text-sm" variants={fadeInUp}>
-        Halo! Its divine wind will rush through the stars, propelling all who are worthy along the path to salvation.
-      </motion.p>
     </motion.div>
   );
 };
