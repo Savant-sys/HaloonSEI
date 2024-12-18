@@ -48,7 +48,7 @@ const About: React.FC<{}> = () =>
           className="text-gray-300 text-center text-sm md:text-lg"
           variants={fadeInUp}
         >
-          We're excited to bring you The Halo, your ultimate hub for all things Halo on SEI! Whether you're here for the latest Halo news, 
+          We're excited to bring you the first ever Halo community coin, your ultimate hub for all things Halo on SEI! Whether you're here for the latest Halo news,
           updates on the legendary game, or just to hang out with fellow fans, you've come to the right place.
           <br />
           <br />

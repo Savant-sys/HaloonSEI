@@ -17,10 +17,13 @@ const fadeInUp = {
   },
 };
 
-const Footer: React.FC<{}> = () => {
-  useEffect(() => {
+const Footer: React.FC<{}> = () =>
+{
+  useEffect(() =>
+  {
     var Tawk_LoadStart = new Date();
-    (function () {
+    (function ()
+    {
       var s1 = document.createElement("script"),
         s0 = document.getElementsByTagName("script")[0];
       s1.async = true;
@@ -70,8 +73,8 @@ const Footer: React.FC<{}> = () => {
         ))}
       </motion.div>
 
-      <motion.p className="text-gray-300 text-center text-xs md:text-sm" variants={fadeInUp}>
-        Created with 💜 using Next.js © {new Date().getFullYear()}
+      <motion.p className="text-gray-300 text-center text-lg md:text-sm" variants={fadeInUp}>
+        Halo! Its divine wind will rush through the stars, propelling all who are worthy along the path to salvation.
       </motion.p>
     </motion.div>
   );

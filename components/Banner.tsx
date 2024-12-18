@@ -65,9 +65,8 @@ const Banner: React.FC<{}> = () =>
         </motion.div>
 
         {/* Subtitle */}
-        <motion.p className="text-base md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
-        Brothers and sisters, the Great Journey is near. Through the blood of fathers... On the blood of our sons... 
-        We will carve the path into the divine beyond! And nothing, not even the flood will stop us.
+        <motion.p className="text-lg md:text-md text-gray-200 my-3 md:my-5 max-w-[600px]" variants={fadeInUp}>
+          Halo! Its divine wind will rush through the stars, propelling all who are worthy along the path to salvation.
         </motion.p>
 
         {/* Discord Button */}

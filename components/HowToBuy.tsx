@@ -24,7 +24,8 @@ const staggerContainer = {
   },
 };
 
-const HowToBuyCrypto: React.FC<{}> = () => {
+const HowToBuyCrypto: React.FC<{}> = () =>
+{
   return (
     <motion.section
       id="howtobuy"
@@ -49,53 +50,42 @@ const HowToBuyCrypto: React.FC<{}> = () => {
       </motion.p>
 
       {/* Content */}
-<div className="container mx-auto max-w-screen-lg px-6 md:px-12">
-  <motion.div
-    className="bg-[rgba(31,31,31,0.5)] border border-gray-700 rounded-lg p-6 md:p-8 space-y-6 shadow-lg"
-    variants={staggerContainer}
-  >
-    <motion.p
-      className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
-      variants={fadeInUp}
-    >
-      <span className="text-blue-400 font-bold">1.</span> Buy{" "}
-      <strong className="text-white">$SEI</strong> on Coinbase or any
-      other supported exchange.
-    </motion.p>
-    <motion.p
-      className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
-      variants={fadeInUp}
-    >
-      <span className="text-purple-400 font-bold">2.</span> Transfer your
-      purchased <strong className="text-white">$SEI</strong> tokens to
-      your Compass Wallet.
-    </motion.p>
-    <motion.p
-      className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
-      variants={fadeInUp}
-    >
-      <span className="text-blue-400 font-bold">3.</span> Link your
-      Compass Wallet to the{" "}
-      <a
-        href="https://seipex.fi/0xcFf4CaaFc95B980E74F6f7bC0672B70084F4fc9a"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 underline hover:text-blue-500 transition-colors"
-      >
-        SeiPex
-      </a>{" "}
-      website.
-    </motion.p>
-    <motion.p
-      className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
-      variants={fadeInUp}
-    >
-      <span className="text-purple-400 font-bold">4.</span> Purchase{" "}
-      <strong className="text-white">Halo</strong> tokens using your
-      Compass Wallet on SeiPex.
-    </motion.p>
-  </motion.div>
-</div>
+      <div className="container mx-auto max-w-screen-lg px-6 md:px-12">
+        <motion.div
+          className="bg-[rgba(31,31,31,0.5)] border border-gray-700 rounded-lg p-6 md:p-8 space-y-6 shadow-lg"
+          variants={staggerContainer}
+        >
+          <motion.p
+            className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
+            variants={fadeInUp}
+          >
+            <span className="text-blue-400 font-bold">1.</span>‎ Buy ‎<strong className="text-white">$SEI</strong>‎ on Coinbase or any other supported exchange.
+          </motion.p>
+          <motion.p
+            className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
+            variants={fadeInUp}
+          >
+            <span className="text-purple-400 font-bold">2.</span>‎ Transfer your purchased ‎<strong className="text-white">$SEI</strong>‎ tokens to your Compass Wallet.
+          </motion.p>
+          <motion.p
+            className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
+            variants={fadeInUp}
+          >
+            <span className="text-blue-400 font-bold">3.</span>‎ Link your Compass Wallet to the ‎<a
+              href="https://seipex.fi/0xcFf4CaaFc95B980E74F6f7bC0672B70084F4fc9a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 underline hover:text-blue-500 transition-colors"
+            >SeiPex</a>‎ website.
+          </motion.p>
+          <motion.p
+            className="text-gray-300 text-sm md:text-lg md:flex md:justify-center"
+            variants={fadeInUp}
+          >
+            <span className="text-purple-400 font-bold">4.</span>‎ Purchase ‎<strong className="text-white">Halo</strong>‎ tokens using your Compass Wallet on SeiPex.
+          </motion.p>
+        </motion.div>
+      </div>
 
     </motion.section>
   );

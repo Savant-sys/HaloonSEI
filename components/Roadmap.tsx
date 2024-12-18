@@ -14,8 +14,9 @@ const fadeInUp = {
   },
 };
 
-const Roadmap: React.FC<{}> = () => {
-  const progressToDragonSwap = 1.96;
+const Roadmap: React.FC<{}> = () =>
+{
+  const progressToDragonSwap = 2.94;
 
   return (
     <motion.section
@@ -39,39 +40,39 @@ const Roadmap: React.FC<{}> = () => {
         >
           Roadmap
         </motion.h1>
-        </motion.div>
-        <motion.p
-          className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
-          variants={fadeInUp}
-        >
-          Progress
-        </motion.p>
+      </motion.div>
+      <motion.p
+        className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
+        variants={fadeInUp}
+      >
+        Progress
+      </motion.p>
 
-        {/* Progress Bar Container */}
+      {/* Progress Bar Container */}
+      <motion.div
+        className="w-full max-w-3xl"
+        variants={fadeInUp}
+      >
+        {/* Progress Bar Text */}
         <motion.div
-          className="w-full max-w-3xl"
+          className="text-white text-lg md:text-xl flex items-center gap-2 justify-between"
           variants={fadeInUp}
         >
-          {/* Progress Bar Text */}
-          <motion.div
-            className="text-white text-lg md:text-xl flex items-center gap-2 justify-between"
-            variants={fadeInUp}
-          >
-            <span className="font-bold">Goal: DragonSwap</span>
-            <span className="text-blue-400">{progressToDragonSwap.toFixed(2)}%</span>
-          </motion.div>
+          <span className="font-bold">Goal: DragonSwap</span>
+          <span className="text-blue-400">{progressToDragonSwap.toFixed(2)}%</span>
+        </motion.div>
 
-          {/* Progress Bar */}
+        {/* Progress Bar */}
+        <motion.div
+          className="w-full bg-gray-700 rounded-full h-4 mt-2"
+          variants={fadeInUp}
+        >
           <motion.div
-            className="w-full bg-gray-700 rounded-full h-4 mt-2"
-            variants={fadeInUp}
-          >
-            <motion.div
-              className="bg-gradient-to-r from-purple-500 to-blue-400 h-4 rounded-full"
-              style={{ width: `${progressToDragonSwap}%` }}
-              transition={{ duration: 1 }}
-            />
-          
+            className="bg-gradient-to-r from-purple-500 to-blue-400 h-4 rounded-full"
+            style={{ width: `${progressToDragonSwap}%` }}
+            transition={{ duration: 1 }}
+          />
+
         </motion.div>
       </motion.div>
     </motion.section>

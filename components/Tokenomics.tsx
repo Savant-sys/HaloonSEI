@@ -42,7 +42,62 @@ const Tokenomics: React.FC<{}> = () =>
           className="tracking-[0.2em] md:tracking-[0.5em] text-transparent font-light pb-3 md:pb-5 bg-clip-text bg-gradient-to-r from-purple-500 to-blue-400 text-sm md:text-1xl"
           variants={fadeInUp}
         >
-          BLANK
+          The foundation of a decentralized future.
+        </motion.p>
+      </motion.div>
+
+      {/* Added Halo-style content */}
+      <motion.div
+        className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center text-white mt-8"
+        variants={fadeInUp}
+      >
+        <motion.div
+          className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
+          variants={fadeInUp}
+        >
+          <h2 className="text-xl md:text-2xl font-bold">1,000,000,000 Supply</h2>
+        </motion.div>
+        <motion.div
+          className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
+          variants={fadeInUp}
+        >
+          <h2 className="text-xl md:text-2xl font-bold">$3,756.69 Market Cap</h2>
+        </motion.div>
+        <motion.div
+          className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
+          variants={fadeInUp}
+        >
+          <h2 className="text-xl md:text-2xl font-bold">$0.00000000007087299 Current Price</h2>
+        </motion.div>
+        <motion.div
+          className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
+          variants={fadeInUp}
+        >
+          <h2 className="text-xl md:text-2xl font-bold">7 Holders</h2>
+        </motion.div>
+      </motion.div>
+
+      <motion.div
+        className="mt-10 text-center text-white space-y-4"
+        variants={fadeInUp}
+      >
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          FAIR LAUNCH
+        </motion.p>
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          NO TEAM ALLOCATION
+        </motion.p>
+        <motion.p
+          className="text-lg md:text-xl font-semibold bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500"
+          variants={fadeInUp}
+        >
+          NO PRESALE
         </motion.p>
       </motion.div>
     </motion.section>

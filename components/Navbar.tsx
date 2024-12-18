@@ -15,12 +15,15 @@ const fadeInDown = {
   },
 };
 
-const Navbar: React.FC<{}> = () => {
+const Navbar: React.FC<{}> = () =>
+{
   const [isOpen, setIsOpen] = useState(false);
 
-  const scrollToSection = (id: string, offset: number) => {
+  const scrollToSection = (id: string, offset: number) =>
+  {
     const element = document.querySelector(id);
-    if (element) {
+    if (element)
+    {
       window.scrollTo({
         top: element.getBoundingClientRect().top + window.pageYOffset - offset,
         behavior: "smooth",
@@ -29,7 +32,8 @@ const Navbar: React.FC<{}> = () => {
     }
   };
 
-  const scrollToTop = () => {
+  const scrollToTop = () =>
+  {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -80,7 +84,7 @@ const Navbar: React.FC<{}> = () => {
             About
           </motion.div>
 
-        
+
           <motion.div
             onClick={() => scrollToSection("#howtobuy", 120)}
             className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
@@ -97,15 +101,6 @@ const Navbar: React.FC<{}> = () => {
             whileTap={{ scale: 0.95 }}
           >
             Tokenomics
-          </motion.div>
-
-          <motion.div
-            onClick={() => scrollToSection("#faq", 100)}
-            className="z-[1] bg-transparent cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl text-white py-2 px-5 text-lg"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            FAQ
           </motion.div>
 
           <motion.div
@@ -146,15 +141,6 @@ const Navbar: React.FC<{}> = () => {
               whileTap={{ scale: 0.95 }}
             >
               Tokenomics
-            </motion.div>
-
-            <motion.div
-              onClick={() => scrollToSection("#faq", 100)}
-              className="z-[1] bg-transparent cursor-pointer text-white py-2 px-5 text-base"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              FAQ
             </motion.div>
 
             <motion.div
