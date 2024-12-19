@@ -55,25 +55,32 @@ const Tokenomics: React.FC<{}> = () =>
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
           variants={fadeInUp}
         >
-          <h2 className="text-xl md:text-2xl font-bold">1,000,000,000 Supply</h2>
+          <h1>Total Supply</h1>
+          <h2 className="text-xl md:text-2xl font-bold"> 1,000,000,000</h2>
+
         </motion.div>
         <motion.div
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
           variants={fadeInUp}
         >
-          <h2 className="text-xl md:text-2xl font-bold">$3,756.69 Market Cap</h2>
+          <h1>Market Cap</h1>
+          <h2 className="text-xl md:text-2xl font-bold"> $2,664.55</h2>
         </motion.div>
         <motion.div
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
           variants={fadeInUp}
         >
-          <h2 className="text-xl md:text-2xl font-bold">$0.00000000007087299 Current Price</h2>
+
+          <h1>Current Price</h1>
+          <h2 className="text-xl md:text-2xl font-bold"> $0.00000000006137845</h2>
         </motion.div>
         <motion.div
           className="p-4 bg-gradient-to-r from-gray-800 via-gray-900 to-black rounded-lg shadow-lg"
           variants={fadeInUp}
         >
-          <h2 className="text-xl md:text-2xl font-bold">7 Holders</h2>
+
+          <h1>Holders</h1>
+          <h2 className="text-xl md:text-2xl font-bold"> 7</h2>
         </motion.div>
       </motion.div>
 

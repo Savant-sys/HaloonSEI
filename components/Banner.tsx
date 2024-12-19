@@ -113,6 +113,28 @@ const Banner: React.FC<{}> = () =>
           </a>
         </motion.div>
 
+        {/* Telegram Button */}
+        <motion.div
+          className="text-base md:text-md flex justify-center mt-5"
+          variants={fadeInUp}
+        >
+          <a
+            href="https://t.me/+4lliH72PUIQzZTIx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-transform duration-300 ease-in-out hover:scale-110"
+          >
+            <Image
+              src="/telegram_button.png"
+              height={100}
+              width={100}
+              alt="Telegram Button"
+              unoptimized
+              className="md:w-[200px] md:h-auto h-auto"
+            />
+          </a>
+        </motion.div>
+
       </div>
     </motion.div>
   );

@@ -16,7 +16,7 @@ const fadeInUp = {
 
 const Roadmap: React.FC<{}> = () =>
 {
-  const progressToDragonSwap = 2.94;
+  const progressToDragonSwap = 0.26;
 
   return (
     <motion.section
